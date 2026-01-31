@@ -8,7 +8,7 @@ Users can draw by clicking or dragging on the canvas, choose brush colors and si
 ## ✨ Features
 - **Draw with mouse clicks or drags** on the canvas.
 - **Color picker**: select brush color from a dropdown.
-- **Brush size selector**: choose different circle sizes (2px – 30px).
+- **Brush size selector**: choose different circle sizes (2px – 30px). 
 - **Background color selector**: switch between black or white canvas backgrounds.
 - **Erase button**: clears the canvas while keeping the background color.
 - **Reload button**: refreshes the entire page to reset everything.
