@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch-a-Sketch</title>
+  <link rel="stylesheet" href="sketch.css">
+  <script src="sketch.js" defer></script>
+</head>
+<body>
+<div id="mainContainer">  
+ <div id="Container">
+
+    <!-- Color selection dropdown -->
+  <div id="sketchColor">
+     <label for="color">Choose a Color:</label>
+       <select id="color" name="color">
+         <option value="red">Red</option>
+         <option value="green">Green</option>
+         <option value="blue">Blue</option>
+         <option value="purple">Purple</option>
+         <option value="yellow">Yellow</option>
+       </select>   
+  </div>
+
+ <!-- Painter size selection dropdown -->
+  <div id="NumberSelection">
+    <label for="numberSize">Select size of painter:</label>
+       <select id="numberSize" name="color">
+        <option value="2">2px</option>
+        <option value="3">3px</option>
+        <option value="4">4px</option>
+        <option value="5">5px</option>
+        <option value="6">6px</option>
+        <option value="8">8px</option>
+        <option value="10">10px</option>
+        <option value="14">14px</option>
+        <option value="16">16px</option>
+        <option value="20">20px</option>
+        <option value="24">24px</option>
+        <option value="28">28px</option>
+        <option value="30">30px</option>   
+             
+       </select>
+  </div>
+
+  <!-- Background color selection dropdown -->
+  <div id="backgroundColor">
+    <label for="backColor">Background Color:</label>
+       <select id="backColor" name="color">
+         <option value="black">Black</option>
+         <option value="white">White</option>
+       </select>
+  </div>
+
+</div>
+  <!-- Canvas area where drawing happens -->
+  <div id="canvaContainer">
+    <canvas id="myCanvas" width="1000" height="600" style="border:3px solid black;"></canvas>
+  </div>
+
+  <!-- Buttons for reset and reload -->
+  <div id="buttonContainer">
+    <div id="reloadContainer"><button id="reloadButton">Reload</button></div>
+    <div id="resetContainer"><button id="resetButton">Erase</button></div>
+  </div>
+
+</div>  
+</body>
+</html>

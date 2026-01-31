@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(153, 159, 159); 
+     box-shadow: 12px 12px 35px 32px rgba(16, 16, 16, 0.3);
+       border-radius: 52px;
+}
+#mainContainer{
+display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 10px;              
+  border: 2px solid  rgb(153, 159, 159);
+  padding: 20px;
+  border-radius: 100px;
+  background-color: rgb(153, 159, 159);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#Container{
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    gap:50px;
+}
+canvas {
+    border-radius: 22px;
+    box-shadow: 12px 12px 35px 32px rgba(16, 16, 16, 0.3);
+
+}
+#sketchColor {
+    width: 300px;
+    height: 32px;
+    font-size: larger;
+    border-radius: 52px;
+    margin: 12px;
+    padding: 12px;
+    text-align: center;
+    box-shadow: 12px 12px 15px 12px rgba(16, 16, 16, 0.3);
+}
+#NumberSelection{
+     width: 300px;
+    height: 32px;
+    font-size: larger;
+    border-radius: 52px;
+    margin: 12px;
+    padding: 12px;
+    text-align: center;
+ box-shadow: 12px 12px 15px 12px rgba(16, 16, 16, 0.3);
+}
+
+#backgroundColor{
+   width: 300px;
+    height: 32px;
+    font-size: larger;
+    border-radius: 52px;
+    margin: 12px;
+    padding: 12px;
+    text-align: center; 
+ box-shadow: 12px 12px 15px 12px rgba(16, 16, 16, 0.3);
+}
+
+#canvaContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px;  
+}
+
+#buttonContainer{
+    display: flex;
+     gap:100px; 
+     margin: 50px; 
+}
+
+#resetContainer{
+    height: 22px;
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 15px 12px rgba(16, 16, 16, 0.3);
+}
+
+#resetButton{
+    font-size: large;
+    text-align: center;
+    border: 40px;
+    background-color: rgb(153, 159, 159);
+}
+
+#resetContainer:hover{
+    background-color: coral;
+}
+
+#resetContainer:active{
+    background-color: rgb(255, 203, 80);
+}
+#reloadContainer{
+    height: 22px;
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+box-shadow: 12px 12px 15px 12px rgba(16, 16, 16, 0.3);
+}
+
+#reloadButton{
+   font-size: large;
+   text-align: center;
+   border: 40px;
+   background-color: rgb(153, 159, 159);
+}
+
+#reloadContainer:hover{
+ background-color: coral;
+}
+
+#reloadContainer:active{
+ background-color: rgb(255, 203, 80);
+}
+#numberSize{
+    background-color:  rgb(153, 159, 159);
+    border-radius: 30px;
+    height: 30px;
+    width: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+#backColor{
+      background-color:  rgb(156, 159, 153);
+    border-radius: 30px;
+    height: 30px;
+    width: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+#backColor:active{
+    background-color: rgb(207, 124, 7);
+}
+#color{
+    background-color:  rgb(153, 159, 159);
+    border-radius: 30px;
+    height: 30px;
+    width: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+#color:active{
+    background-color: rgb(207, 124, 7);
+}
