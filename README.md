@@ -3,6 +3,7 @@
 A simple interactive drawing application built with **HTML5 Canvas**, **JavaScript**, and **CSS**.  
 Users can draw by clicking or dragging on the canvas, choose brush colors and sizes, change the background, and reset or reload the sketch.
 
+
 ---
 ## ✨ Features
 - **Draw with mouse clicks or drags** on the canvas.
